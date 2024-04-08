@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#8692f7</color>
+    <color name="teal_700">#1B7C89</color>
+    <color name="Wild_Caribbean_Green">#15D59A</color>
+    <color name="Aqua_Green">#14DC9E</color>
+    <color name="Roller_Derby">#94F4D4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+    <color name="colorAccent">#FF1100</color>
+</resources>
