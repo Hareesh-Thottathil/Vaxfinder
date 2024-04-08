@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.subActivities.VaccineDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/vaccineTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vaccines Available in India"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCoviShield"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="1.CoviShiels (Oxford-AstraZeneca)"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vaccineTitle" />
+
+            <TextView
+                android:id="@+id/txtExpCoviShield"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Covishield is a viral vector vaccine developed by AstraZeneca in collaboration with the University of Oxford. It is manufactured by the Serum Institute of India (SII) under the name Covishield. This vaccine uses a weakened version of a common cold virus (adenovirus) that infects chimpanzees and has been modified to carry the gene for making the spike protein of the SARS-CoV-2 virus. Once injected, the vaccine triggers an immune response, preparing the body to fight off the virus if exposed to it in the future. Covishield is administered in two doses, with a recommended interval between doses."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCoviShield" />
+
+            <TextView
+                android:id="@+id/txtCovaxin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2.Covaxin (Bharat Biotech)"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtExpCoviShield" />
+
+            <TextView
+                android:id="@+id/txtExpCovaxin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Covaxin is an inactivated virus vaccine developed by Bharat Biotech in collaboration with the Indian Council of Medical Research (ICMR). This vaccine contains killed SARS-CoV-2 virus particles, which cannot replicate but can still trigger an immune response in the body. Covaxin is administered in two doses, with a recommended interval between doses."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtCovaxin" />
+
+            <TextView
+                android:id="@+id/txtSputnik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3.Sputnik V (Gam-COVID-Vac)"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtExpCovaxin" />
+
+            <TextView
+                android:id="@+id/txtExpSputnik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sputnik V is a viral vector vaccine developed by the Gamaleya Research Institute of Epidemiology and Microbiology in Russia. The vaccine uses two different adenoviruses (Ad26 and Ad5), each carrying the gene for making the spike protein of the SARS-CoV-2 virus. Sputnik V is administered in two doses, with a recommended interval between doses."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtSputnik" />
+
+            <TextView
+                android:id="@+id/txtCovovax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4.Covovax (Novavax)"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtExpSputnik" />
+
+            <TextView
+                android:id="@+id/txtExpCovovax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Covovax is a protein subunit vaccine developed by Novavax. It contains a small piece of the SARS-CoV-2 virus called the spike protein, which is produced using recombinant DNA technology. Covovax is administered in two doses, with a recommended interval between doses. It is manufactured in India by the Serum Institute of India (SII)."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtCovovax" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/VDetailsfloatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/baseline_keyboard_backspace_24" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

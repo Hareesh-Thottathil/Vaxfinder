@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.subActivities.CovidDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/CovidDetailsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Covid-19:Details to know"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textQ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="What is Covid 19?"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CovidDetailsTitle" />
+
+            <TextView
+                android:id="@+id/textA1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COVID-19, short for 'Coronavirus Disease 2019,' is an infectious disease caused by the novel coronavirus SARS-CoV-2. It first emerged in December 2019 in Wuhan, China, and rapidly spread worldwide, leading to a global pandemic."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textQ1" />
+
+            <TextView
+                android:id="@+id/text1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="COVID-19 can cause a wide range of symptoms, which may appear 2-14 days after exposure to the virus. Many individuals experience mild symptoms or are asymptomatic, others, particularly the elderly and those with underlying health conditions, are at a higher risk of developing severe complications such as pneumonia, acute respiratory distress syndrome (ARDS), organ failure, and death.  "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textA1_1" />
+
+            <TextView
+                android:id="@+id/textQ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="How it Spread?"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text1_3" />
+
+            <TextView
+                android:id="@+id/textA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COVID-19 primarily spreads through respiratory droplets when an infected person coughs, sneezes, or talks. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Additionally, the virus can spread by touching surfaces or objects contaminated with the virus and then touching one's mouth, nose, or eyes. However, this is not considered the main way the virus spreads. Close contact with infected individuals, particularly within about 6 feet, is a significant factor in transmission. Asymptomatic individuals can also spread the virus, although it may be less common than transmission from symptomatic individuals"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textQ2" />
+
+            <TextView
+                android:id="@+id/textQ3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="How can individuals protect themselves and others from COVID-19?"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textA2" />
+
+            <TextView
+                android:id="@+id/textA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wear a Mask, Practice Social Distancing, Practice Good Hand Hygiene, Avoid Touching Your Face, Cover Your Mouth and Nose, Get Vaccinated,Stay Home if Sick, Follow Public Health Guidelines."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textQ3" />
+
+            <TextView
+                android:id="@+id/textQ4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="What are the potential long-term health effects of COVID-19?"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textA3" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="The potential long-term health effects of COVID-19, also known as &quot;long COVID,&quot; can include fatigue, shortness of breath, cognitive impairment, joint and muscle pain, cardiovascular issues, respiratory problems, mental health issues, gastrointestinal symptoms, and loss of taste or smell. These symptoms may persist for weeks or months after the initial infection, impacting daily life and requiring medical attention for management."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textQ4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/CDFloatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/baseline_keyboard_backspace_24" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.Activity.ShowDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHaii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Haii"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Vaccination Report"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtBookingDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:text="Booking Date: " />
+
+        <TextView
+            android:id="@+id/txtVaccine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine: "
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtDose1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dose 1: "
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtcenter1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccinated from: "
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtVaccine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccine: "
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtDose2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dose 2: "
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtcenter2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccinated from: "
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/txtDownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="Obtain an official copy of your COVID-19 vaccination certificate by clicking the button below." />
+
+        <Button
+            android:id="@+id/downloadCertificateBtn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Download Certificate"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/baseline_keyboard_backspace_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
