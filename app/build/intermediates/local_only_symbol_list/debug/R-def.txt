@@ -9,6 +9,7 @@ color Roller_Derby
 color Wild_Caribbean_Green
 color black
 color colorAccent
+color green
 color lavender
 color purple
 color teal_700
@@ -120,6 +121,7 @@ id textQ1
 id textQ2
 id textQ3
 id textQ4
+id textView
 id textView12
 id textView3
 id titleText

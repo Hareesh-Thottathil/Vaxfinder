@@ -28,7 +28,7 @@ public class splash_screen extends AppCompatActivity {
             @Override
             public void run() {
                 SharedPreferences prefs = getSharedPreferences("MyPrefs",MODE_PRIVATE);
-                user_logdata = prefs.getBoolean("userlog_data",false);
+                user_logdata = prefs.getBoolean("user_logdata",false);
                 admin_logdata =prefs.getBoolean("admin_logdata",false);
                 Intent intent;
                 if(user_logdata){

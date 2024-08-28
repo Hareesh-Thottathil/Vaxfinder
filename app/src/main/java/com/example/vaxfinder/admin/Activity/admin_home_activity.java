@@ -1,7 +1,9 @@
 package com.example.vaxfinder.admin.Activity;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -87,6 +89,10 @@ public class admin_home_activity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Toast.makeText(admin_home_activity.this, "Logged out successfully.", Toast.LENGTH_SHORT).show();
+                        SharedPreferences prefs = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = prefs.edit();
+                        editor.putBoolean("admin_logdata",false);
+                        editor.apply();
                         Intent intent = new Intent(admin_home_activity.this, com.example.vaxfinder.MainActivity.class);
                         startActivity(intent);
                         finish();

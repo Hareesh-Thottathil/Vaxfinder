@@ -1,6 +1,7 @@
 package com.example.vaxfinder.user.Activity;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -197,6 +198,10 @@ public class home extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Toast.makeText(home.this, "Logged out successfully.", Toast.LENGTH_SHORT).show();
+                        SharedPreferences prefs = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = prefs.edit();
+                        editor.putBoolean("user_logdata",false);
+                        editor.apply();
                         Intent intent = new Intent(home.this, com.example.vaxfinder.MainActivity.class);
                         startActivity(intent);
                         finish();
