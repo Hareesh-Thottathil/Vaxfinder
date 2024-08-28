@@ -1,6 +1,8 @@
 package com.example.vaxfinder.user.Activity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.SpannableString;
@@ -62,6 +64,10 @@ public class user_log_activity extends AppCompatActivity {
             public void onClick(View view) {
                 if(userName.getText().toString().equals("7559900403") && password.getText().toString().equals("1234")){
                     Toast.makeText(user_log_activity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                    SharedPreferences prefs = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = prefs.edit();
+                    editor.putBoolean("user_logdata",true);
+                    editor.apply();
                     Intent intent = new Intent(user_log_activity.this, home.class);
                     startActivity(intent);
                     finish();

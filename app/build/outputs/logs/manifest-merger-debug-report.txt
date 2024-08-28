@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:1-77:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\ASUS\.gradle\caches\transforms-3\eb27657ec2f12fbd017e83bdbbf1f20f\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-3\08f55b195dcd0c7c189d9e8288f31b0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\eab34024bef6497d85958c1e33713dee\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\ASUS\.g
 	xmlns:android
 		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:5:5-71:19
-INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:5:5-71:19
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:5:5-75:19
+INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:5:5-75:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\ASUS\.gradle\caches\transforms-3\eb27657ec2f12fbd017e83bdbbf1f20f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\ASUS\.gradle\caches\transforms-3\eb27657ec2f12fbd017e83bdbbf1f20f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-3\08f55b195dcd0c7c189d9e8288f31b0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -96,114 +96,122 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\cache
 		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:13:9-47
 	android:dataExtractionRules
 		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.vaxfinder.user.subActivities.available_centers_activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:15:9-17:40
+activity#com.example.vaxfinder.splash_screen
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:17:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:16:13-74
-activity#com.example.vaxfinder.user.subActivities.available_slots_activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:18:9-20:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:20:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:19:13-72
-activity#com.example.vaxfinder.user.subActivities.VaccineDetailsActivity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:21:9-23:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:23:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:22:13-70
-activity#com.example.vaxfinder.user.subActivities.CovidDetailsActivity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:24:9-26:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:26:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:25:13-68
-activity#com.example.vaxfinder.user.subActivities.covid_symptoms_Activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:27:9-29:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:29:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:28:13-71
-activity#com.example.vaxfinder.user.Activity.ShowDetailsActivity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:30:9-32:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:32:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:31:13-62
-activity#com.example.vaxfinder.user.Activity.home
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:33:9-35:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:34:13-47
-activity#com.example.vaxfinder.user.Activity.signup
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:36:9-39:75
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:39:13-72
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:18:13-72
 	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:37:13-49
-activity#com.example.vaxfinder.user.Activity.user_log_activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:40:9-43:75
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:16:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.vaxfinder.user.subActivities.available_centers_activity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:26:13-74
+activity#com.example.vaxfinder.user.subActivities.available_slots_activity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:29:13-72
+activity#com.example.vaxfinder.user.subActivities.VaccineDetailsActivity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:32:13-70
+activity#com.example.vaxfinder.user.subActivities.CovidDetailsActivity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:35:13-68
+activity#com.example.vaxfinder.user.subActivities.covid_symptoms_Activity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:38:13-71
+activity#com.example.vaxfinder.user.Activity.ShowDetailsActivity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:42:13-37
-	android:theme
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:43:13-72
 	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:41:13-60
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:41:13-62
+activity#com.example.vaxfinder.user.Activity.home
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:44:13-47
+activity#com.example.vaxfinder.user.Activity.signup
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:46:9-49:75
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:48:13-37
+	android:theme
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:49:13-72
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:47:13-49
+activity#com.example.vaxfinder.user.Activity.user_log_activity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:50:9-53:75
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:52:13-37
+	android:theme
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:53:13-72
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:51:13-60
 activity#com.example.vaxfinder.admin.Activity.admin_login_activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:44:9-47:75
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:46:13-37
-	android:theme
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:47:13-72
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:45:13-64
-activity#com.example.vaxfinder.admin.Activity.center_activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:48:9-50:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:50:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:49:13-59
-activity#com.example.vaxfinder.admin.Activity.slots_activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:51:9-53:40
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:53:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:52:13-58
-activity#com.example.vaxfinder.admin.Activity.admin_home_activity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:54:9-56:40
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:54:9-57:75
 	android:exported
 		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:56:13-37
-	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:55:13-63
-activity#com.example.vaxfinder.MainActivity
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:57:9-66:20
-	android:exported
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:59:13-36
 	android:theme
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:60:13-72
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:57:13-72
 	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:58:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:61:13-65:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:62:17-69
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:55:13-64
+activity#com.example.vaxfinder.admin.Activity.center_activity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:58:9-60:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:62:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:64:17-77
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:59:13-59
+activity#com.example.vaxfinder.admin.Activity.slots_activity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:61:9-63:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:64:27-74
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:62:13-58
+activity#com.example.vaxfinder.admin.Activity.admin_home_activity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:64:9-66:40
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:65:13-63
+activity#com.example.vaxfinder.MainActivity
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:67:9-70:75
+	android:exported
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:69:13-37
+	android:theme
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:70:13-72
+	android:name
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:68:13-41
 meta-data#preloaded_fonts
-ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:68:9-70:57
+ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:72:9-74:57
 	android:resource
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:70:13-54
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:74:13-54
 	android:name
-		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:69:13-43
+		ADDED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml:73:13-43
 uses-sdk
 INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ASUS\Documents\Study Notes\Course\Intrainz\vaxApp-main\vaxApp-main\app\src\main\AndroidManifest.xml

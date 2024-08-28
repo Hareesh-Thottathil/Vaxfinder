@@ -26,6 +26,7 @@ drawable ic_launcher_foreground
 drawable lavender_border
 drawable lock
 drawable log_design
+drawable logo
 drawable mail
 drawable man_icon_1
 drawable person
@@ -89,6 +90,7 @@ id downloadCertificateBtn
 id fechRecCard
 id fechRecImage
 id image
+id imageView2
 id llRow
 id logButton
 id loginRedirectText
@@ -177,6 +179,7 @@ layout activity_main
 layout activity_show_details
 layout activity_signup
 layout activity_slots
+layout activity_splash_screen
 layout activity_vaccine_details
 layout admin_activity
 layout book_slot_dialogbox

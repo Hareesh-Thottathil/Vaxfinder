@@ -2,7 +2,9 @@ package com.example.vaxfinder.admin.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -33,6 +35,10 @@ public class admin_login_activity extends AppCompatActivity {
             public void onClick(View view) {
                 if(userName.getText().toString().equals("7559900403") && password.getText().toString().equals("1234")){
                     Toast.makeText(admin_login_activity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                    SharedPreferences prefs = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = prefs.edit();
+                    editor.putBoolean("admin_logdata",true);
+                    editor.apply();
                     Intent intent = new Intent(admin_login_activity.this, admin_home_activity.class);
                     startActivity(intent);
                     finish();
